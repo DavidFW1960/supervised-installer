@@ -13,7 +13,7 @@ warn "Home Assistant as a VM or run Home Assistant Core"
 warn "via a Docker container."
 warn ""
 echo 'Please typ "not supported" to continue this installation'
-read -t 30 x
+read x
 if [ "$x" != "not supported" ]
 then
   echo "OK, bye!"
